@@ -1,9 +1,10 @@
 # simple-web-based-Project-Management-service
 
-Front-end : HTML, CSS, JAavaScript, AJAX<br>
-Back-end : Node.js, Express, MongoDB<br>
-Tool : WebStorm(version 2017.2.3)<br>
-Description : <br>
+Front-end : HTML, CSS, JAavaScript, AJAX<br><br>
+Back-end : Node.js, Express, MongoDB<br><br>
+Tool : WebStorm(version 2017.2.3)<br><br>
+Description : This service is a web-based project management service like "Trello". You can add your task using 'add task' menu of the web page and manage tasks using 'drag-and-drop'. Every data is stored in the database. So you don't have worry about the loss of your data.
+<br><br>
 Scenario : 
 1. Run mongod.exe(MongoDB daemon) and add Database path of this project.(...../mongod.exe --dbpath ...../data)
 2. Run 'www.js' which is located in 'bin' folder of this project.
