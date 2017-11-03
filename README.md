@@ -1,9 +1,9 @@
 # simple-web-based-Project-Management-service
 
-Front-end : HTML, CSS, JAavaScript, AJAX
-Back-end : Node.js, Express, MongoDB
-Tool : WebStorm(version 2017.2.3)
-Description : 
+Front-end : HTML, CSS, JAavaScript, AJAX<br>
+Back-end : Node.js, Express, MongoDB<br>
+Tool : WebStorm(version 2017.2.3)<br>
+Description : <br>
 Scenario : 
 1. Run mongod.exe(MongoDB daemon) and add Database path of this project.(...../mongod.exe --dbpath ...../data)
 2. Run 'www.js' which is located in 'bin' folder of this project.
