@@ -1,6 +1,6 @@
 # simple-web-based-Project-Management-service
 
-Client : HTML, CSS, JAavaScript, AJAX<br><br>
+Client : HTML, CSS, JavaScript, AJAX<br><br>
 Server : Node.js, Express<br><br>
 DataBase : MongoDB, Mongoose<br><br>
 Tool : WebStorm(version 2017.2.3)<br><br>
