@@ -10,6 +10,6 @@ Scenario :
 1. Run mongod.exe(MongoDB daemon) and add Database path of this project.(...../mongod.exe --dbpath ...../data)
 2. Run the 'www' javascript file which is located in 'bin' folder of this project.
 3. Connect to 'localhost:3000' on the web browser.
-4. You can manage the project on a task basis. And you can add a task using left-most division.
+4. You can manage the project on a task basis. And you can add a task using left-most division of the web page.
 5. Each tasks that located in divisions(To Do, Doing, Done) can be moved to other divisions by using 'drag-and-drop'.
 6. Enjoy your project management.
