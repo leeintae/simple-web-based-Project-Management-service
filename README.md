@@ -1,7 +1,7 @@
 # simple-web-based-Project-Management-service
 
 Client : HTML, CSS, JAavaScript, AJAX<br><br>
-Server : Node.js, Express, MongoDB<br><br>
+Server : Node.js, Express<br><br>
 DataBase : MongoDB, Mongoose<br><br>
 Tool : WebStorm(version 2017.2.3)<br><br>
 Description : This service is a web-based project management service like "Trello". You can add your task using 'add task' menu of the web page and manage tasks using 'drag-and-drop'. Every data is stored in the database. So you don't have worry about the loss of your data.
