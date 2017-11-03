@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/ajax.js"></script>
+  </head>
+  <body>
+      <div class="main_div">
+        <div class="each_titles">Add Task</div>
+        <div>
+          <form>
+            <div>
+              <span style="width:40%">title</span>
+              <input id="newTitle" type="text" name="title" style="width:55%"/>
+            </div>
+            <div>
+              <span style="width:40%">content</span>
+              <textarea rows="2" cols="10" id="newContent" name="content" style="width:55%"></textarea>
+            </div>
+            <div>
+              <input type="button" onclick="addNewTask()" value="Add New Task" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="todoList" class="main_div">
+        <div class="each_titles">To Do</div>
+        <div ondrop="drop(event)" ondragover="allowDrop(event)" id="todoTasks" class="sub_div">
+        </div>
+      </div>
+      <div id="doingList" class="main_div" class="sub_div">
+        <div class="each_titles">Doing</div>
+        <div ondrop="drop(event)" ondragover="allowDrop(event)" id="doingTasks" class="sub_div">
+        </div>
+      </div>
+      <div id="doneList" class="main_div" class="sub_div">
+        <div class="each_titles">Done</div>
+        <div ondrop="drop(event)" ondragover="allowDrop(event)" id="doneTasks" class="sub_div">
+        </div>
+      </div>
+  </body>
+</html>

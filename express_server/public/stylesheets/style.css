@@ -1,0 +1,33 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main_div{
+  float: left;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  width: 24%;
+  height:100%;
+  font-size: 20px;
+  font-family:"맑은고딕";
+}
+
+.sub_div{
+  height:100%;
+}
+
+.task_show{
+  margin: auto;
+  background-color: mintcream;
+  border: 1px solid black;
+  width: 95%;
+}
+
+.each_titles{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
